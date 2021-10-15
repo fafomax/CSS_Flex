@@ -1,0 +1,31 @@
+.wrapped {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapped > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header {
+    background: violet
+}
+
+.footer {
+    background: whitesmoke;
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+}
+
+.aside-1 {
+    background: gold;
+}
+.aside-2 {
+    background: green;
+}
